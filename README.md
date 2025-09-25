@@ -115,7 +115,6 @@ Dados de teste centralizados em arquivos JSON:
 
 ## 🔍 Validações Importantes
 
-- Status dos veículos (Disponível, Alugado, Em manutenção)
 - Limites de dias para aluguel (1-30 dias)
 - Diferentes métodos de pagamento
 - Aplicação de cupons de desconto
@@ -138,27 +137,6 @@ Os resultados dos testes podem ser encontrados:
 - Na interface do Cypress em modo interativo
 - Em screenshots e vídeos gerados automaticamente
 
-## 🔄 Integração Contínua
-
-Recomendações para CI:
-```yaml
-steps:
-  - name: Install dependencies
-    run: npm install
-
-  - name: Run Cypress tests
-    run: npm run cypress:run
-```
-
 ## 📚 Documentação Adicional
 
 - [Documentação do Cypress](https://docs.cypress.io)
-- [Guia de Page Objects](https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/)
-
-## 👥 Contribuição
-
-1. Faça um Fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
